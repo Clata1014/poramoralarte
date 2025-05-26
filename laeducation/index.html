@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Por qué es importante la educación infantil en el siglo XXI? - Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            background-color: #FDFDFD; /* Un fondo casi blanco, muy suave */
+        }
+
+        .text-muted {
+            color: #777;
+        }
+
+        .header-nav a {
+            color: #4A5568; /* gris medio */
+            text-decoration: none;
+            padding: 0.5rem 0.75rem;
+            font-weight: 500; /* medium */
+            font-size: 0.9rem;
+        }
+
+            .header-nav a:hover {
+                color: #005A9C; /* Azul institucional para hover */
+            }
+
+        .header-top-links span, .header-top-links a {
+            font-size: 0.8rem;
+        }
+
+        .article-title {
+            font-family: 'Lora', serif;
+            font-size: 2.5rem; /* 40px */
+            font-weight: 700;
+            line-height: 1.2;
+            color: #222;
+        }
+
+        .main-image-container {
+            margin-top: 1.5rem; /* 24px */
+            margin-bottom: 2rem; /* 32px */
+            border-radius: 0.25rem; /* 4px */
+            overflow: hidden;
+        }
+
+            .main-image-container img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+        .share-icons a {
+            margin-right: 0.75rem; /* 12px */
+            color: #555;
+            text-decoration: none;
+        }
+
+            .share-icons a:hover {
+                color: #007bff; /* Un azul para el hover */
+            }
+
+        .content-text {
+            font-size: 1.125rem; /* 18px */
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .image-error-text {
+            color: #777;
+            text-align: center;
+            padding: 20px;
+            border: 2px dashed #ccc;
+            border-radius: 0.5rem;
+            display: none;
+        }
+
+        img:error + .image-error-text {
+            display: block;
+        }
+
+        .btn-cta {
+            background-color: #FFB900; /* Amarillo/Naranja como el de "HAZTE SOCIA" */
+            color: #333;
+            font-weight: bold;
+            padding: 0.6rem 1.2rem;
+            border-radius: 0.25rem;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-cta:hover {
+                background-color: #E0A800;
+            }
+
+        .intro-paragraph {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-left: 4px solid #005A9C;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <header class="border-b border-gray-200 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-2 flex justify-end items-center header-top-links text-muted">
+            <span class="mr-4">📞 3054897656</span>
+            <a href="#" class="hover:text-blue-600">👤 Ya soy socia/o</a>
+            <span class="mx-2">|</span>
+            <a href="#" class="hover:text-blue-600">Español ▼</a>
+        </div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="#" class="text-xl font-bold text-gray-800">
+                    Institución P. Bravo
+                </a>
+            </div>
+            <nav class="header-nav hidden md:flex items-center space-x-1">
+                <a href="#">Conócenos</a>
+                <a href="#">Nuestro trabajo</a>
+                <a href="#">Transparencia</a>
+                <a href="mailto:m.tabares@pascualbravo.edu.co">Contáctanos</a>
+                <a href="#">Colabora</a>
+            </nav>
+            <div class="hidden md:block">
+                <a href="#" class="btn-cta">HAZTE SOCIA/O</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 hover:text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-200">
+            <nav class="flex flex-col items-center py-3 space-y-2 header-nav">
+                <a href="#">Conócenos</a>
+                <a href="#">Nuestro trabajo</a>
+                <a href="#">Transparencia</a>
+                <a href="mailto:m.tabares@pascualbravo.edu.co">Contáctanos</a>
+                <a href="#">Colabora</a>
+                <a href="#" class="btn-cta mt-2">HAZTE SOCIA/O</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 max-w-3xl">
+
+        <p class="intro-paragraph">
+            La educación es un proceso de aprendizaje continuo que busca desarrollar el potencial individual y social, fomentando el conocimiento, las habilidades, la comprensión y la participación activa en la sociedad.
+        </p>
+
+        <div class="mb-2 text-xs text-muted">
+            <a href="#" class="hover:underline">Home</a> &gt;
+            <a href="#" class="hover:underline">Blog</a> &gt;
+            <a href="#" class="hover:underline">Educación</a>
+        </div>
+
+        <div class="mb-6 text-sm text-muted">
+            <span>23/05/2024</span> <span class="mx-2">·</span>
+            <span>Tiempo de lectura: 7 Min.</span>
+        </div>
+
+        <h1 class="article-title mb-6">
+            ¿Por qué es importante la educación infantil en el siglo XXI?
+        </h1>
+
+        <div class="share-icons mb-8 text-sm">
+            <span class="text-muted mr-2">Compartir:</span>
+            <a href="#" title="Compartir en Facebook">FB</a>
+            <a href="#" title="Compartir en Twitter">TW</a>
+            <a href="#" title="Compartir en LinkedIn">LI</a>
+            <a href="#" title="Compartir en WhatsApp">WA</a>
+        </div>
+
+        <div class="main-image-container">
+            <img src="Imagenes/b2ap3_medium_educacion-2.png"
+                 alt="Importancia de la educación infantil">
+            <div class="image-error-text">Error al cargar: Imagenes/b2ap3_medium_educacion-2.png</div>
+        </div>
+
+        <article class="content-text prose lg:prose-xl max-w-none my-8">
+            <p>+
